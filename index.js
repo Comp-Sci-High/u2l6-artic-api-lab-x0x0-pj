@@ -2,10 +2,10 @@
 // Define a function called getDogArtworks that makes the API call to the request URL you defined in the worksheet (to get 3 dog artworks)
 // Make sure to console log all 3 titles (after you get the data retrieve the nested values) 
 
-
+let requestUrl = "https://api.artic.edu/api/v1/artworks/search?q=monet"
 
 // Call the function and confirm it worked correctly
-
+async function getDogArtworks(requestUrl)
 
 // Task 2
 // Define another function called searchArtworks that takes in a search query and a size limit
